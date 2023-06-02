@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-21T19:53:45 IST" name="Default suite" finished-at="2023-05-21T19:54:15 IST" duration-ms="30519">
+    <groups>
+    </groups>
+    <test started-at="2023-05-21T19:53:45 IST" name="Default test" finished-at="2023-05-21T19:54:15 IST" duration-ms="30519">
+      <class name="dataprovidermulti.DataProvider7">
+        <test-method is-config="true" signature="initialtion()[pri:0, instance:dataprovidermulti.DataProvider7@7f3b84b8]" started-at="2023-05-21T19:53:45 IST" name="initialtion" finished-at="2023-05-21T19:54:06 IST" duration-ms="20745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialtion -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataprovidermulti.DataProvider7@7f3b84b8]" started-at="2023-05-21T19:54:14 IST" name="login" data-provider="orange" finished-at="2023-05-21T19:54:15 IST" duration-ms="1074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- dataprovidermulti.DataProvider7 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
